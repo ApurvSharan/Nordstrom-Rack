@@ -1,0 +1,250 @@
+body{
+    width:100%;
+    margin:auto;
+}
+#parent{
+    width:90%;
+    margin:auto;
+}
+body > div:first-child{
+    color:white;
+    background-color:#00819D;
+    text-align:center;
+    font-family:"Brandon Text",Arial,sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    padding:15px;
+    margin-bottom:20px;
+}
+#navbar1{
+    display:flex;
+    justify-content:space-evenly;
+    margin:auto;
+}
+#navbar1>div{
+    width:30%;
+}
+#navbar1> div:first-child >img{
+    
+    width:30%;
+    height:60px;
+}
+#btns{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Brandon Text",Arial,sans-serif;
+    color:grey;
+}
+input[type="text"],select,textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    resize: vertical;
+}
+#navbar2{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:15px;
+}
+#head{
+    margin:auto;
+    text-align:center;
+}
+#head > h1{
+    font-family: "Brandon Text",Arial,sans-serif;
+    
+}
+#head > button{
+    border:1px solid #00819D;
+    color:#00819D;
+    padding:10px;
+    background-color: white;
+}
+#head1{
+        margin-top:50px;
+        text-align:center;
+        position:relative;
+}
+.first-txt{
+    position:absolute;
+    top:50px;
+    left:1000px;
+}
+.second-txt{
+    position: absolute;
+    top:90px;
+    left:1000px;
+    text-decoration: underline;
+    color:#00819D;
+}
+.third-txt{
+    position: absolute;
+    top:90px;
+    right: 450px;
+    text-decoration: underline;
+    color:#00819D;
+}
+.mySlides {
+    display: none
+}
+.mySlides > #p1{
+    margin-top:-90px;
+    color:grey;
+    font-size:20px;
+}
+img {
+    vertical-align: middle;
+}
+.slideshow-container {
+        padding-top:70px;
+         max-width: 1600px;
+         position: relative;
+         margin: auto;
+      }
+      /* Next & previous buttons */
+      .prev, .next {
+         cursor: pointer;
+         position: absolute;
+         top: 50%;
+         width: auto;
+         padding: 16px;
+         margin-top: -22px;
+         color: white;
+         font-weight: bold;
+         font-size: 18px;
+         transition: 0.6s ease;
+         border-radius: 0 3px 3px 0;
+         user-select: none;
+      }
+      .next {
+         right: 0;
+         border-radius: 3px 0 0 3px;
+      }
+      .prev:hover, .next:hover {
+         background-color: rgba(0,0,0,0.8);
+      }
+    .para{
+        width:50%;
+        display:flex;
+        justify-content:space-between;
+        text-decoration: underline;
+        color:#00819D;
+        margin-top:15px;
+    }
+ .mySlides >h2{
+    margin-top:-90px;
+ }
+.p2{
+    color:grey;
+}
+.container{
+    width:90%;
+    margin:auto;
+    font-family: "Brandon Text",Arial,sans-serif;
+}
+#newArrival{
+    display:flex;
+    justify-content:center;
+    margin-right: 10px;
+}
+.card{
+    margin-right:20px;
+}
+.card >img{
+    width:80%;
+    text-align:center;
+}
+.card >p{
+    padding-left:20px;
+}
+.h1{
+    text-align:center;
+}
+.today{
+    display: flex;
+    justify-content:center;
+}
+.cards{
+    margin-right:50px;
+}
+.cards>img{
+    width:100%;
+}
+.mySlides1 > h2{
+    margin-top:-90px;
+}
+#greatDeals{
+    display:flex;
+    justify-content:center;
+    margin-right: 10px;
+}
+#img2{
+    height:160px;
+}
+#head2{
+        margin-top:50px;
+        text-align:center;
+        position:relative;
+        font-family: "Brandon Text",Arial,sans-serif;
+}
+.text{
+    position:absolute;
+    top:110px;
+    left:530px;
+    color:white;
+}
+#email{
+    margin:auto;
+    display:flex;
+    flex-direction: row-reverse;
+    width:93%;
+    justify-content:right;
+    margin-top:20px;
+}
+.bt{
+    width:30%;
+    margin:auto;
+}
+#btg{
+    text-align:right;
+    margin-right: -30px;
+}
+#btn{
+    width:100%;
+    padding:10px;
+    background-color: #00819D;
+    color:white;
+}
+#footer{
+    margin-top:30px;
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    background-color: #F9F9F9;
+    gap:20px;
+    padding:20px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+}
+.item >p:first-child{
+    font-weight:bold;
+}
+#footer2{
+    display:flex;
+    justify-content: left;
+}
+#footer2>p{
+    padding:20px;
+}
+.itimg{
+    display:flex;
+    flex-direction:row;
+}
+.itimg >img{
+    height:50px;
+    margin-right:10px;
+}
