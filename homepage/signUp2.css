@@ -1,0 +1,129 @@
+#body{
+    margin:0px;
+    padding:0px;
+}
+#header{
+    width:100%;
+    color:white;
+    font-family:"Brandon Text",Arial,sans-serif;
+    background-color: #DE2925;
+    margin:auto;
+    text-align:center;
+    height:20px;
+    padding:10px;
+}
+#navbar1{
+    display:flex;
+    justify-content: space-around;
+    margin:auto;
+}
+#navbar1>div{
+    margin-top:10px;
+}
+#navbar1>div:first-child>img{
+    width:50%;
+    height:60px;
+}
+#navbar1>div:nth-child(2){
+    width:30%;
+    padding:20px;
+}
+#btns{
+    width:30%;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Brandon Text",Arial,sans-serif;
+    color:grey;
+    cursor:pointer;
+    padding:20px;
+}
+#navbar2{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:15px;
+    cursor:pointer;
+}
+#navbar2>div:first-child{
+    color:red;
+}
+#head2{
+    margin-top:50px;
+    text-align:center;
+    position:relative;
+    font-family: "Brandon Text",Arial,sans-serif;
+}
+#head2 > img{
+width:100%;
+}
+.text{
+position:absolute;
+top:70px;
+left:250px;
+color:white;
+}
+#footer{
+    margin-top:30px;
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    background-color: #F9F9F9;
+    gap:20px;
+    padding:20px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+}
+.item >p:first-child{
+    font-weight:bold;
+}
+#footer2{
+    display:flex;
+    justify-content: left;
+}
+#footer2>p{
+    padding:20px;
+}
+.itimg{
+    display:flex;
+    flex-direction:row;
+}
+.itimg >img{
+    height:50px;
+    margin-right:10px;
+}
+#middle{
+    padding:40px;
+    margin:auto;
+    width:30%;
+}
+input[type="text"],select,textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    resize: vertical;
+}
+input[type="password"],select,textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    resize: vertical;
+}
+#btn{
+    width:100%;
+    background-color: #00819D;
+    border:none;
+    padding:10px;
+    color:white;
+}
+#btn:hover{
+    cursor:pointer;
+    background-color: white;
+    color:#00819D;
+    bordeR:1px solid #00819D;
+}

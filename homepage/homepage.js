@@ -38,3 +38,7 @@ var sldIndex = 1;
          }
          slides[sldIndex-1].style.display = "block";
       }
+document.querySelector("#btns>p:first-child").addEventListener("click",mySign)
+function mySign(){
+   window.location.assign("signup.html");
+}

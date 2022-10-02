@@ -34,6 +34,7 @@ body > div:first-child{
     justify-content: space-evenly;
     font-family: "Brandon Text",Arial,sans-serif;
     color:grey;
+    cursor:pointer;
 }
 input[type="text"],select,textarea{
     width: 100%;
@@ -48,6 +49,7 @@ input[type="text"],select,textarea{
     display:flex;
     justify-content:space-evenly;
     margin-top:15px;
+    cursor:pointer;
 }
 #head{
     margin:auto;
@@ -62,30 +64,36 @@ input[type="text"],select,textarea{
     color:#00819D;
     padding:10px;
     background-color: white;
+    cursor:pointer;
 }
 #head1{
         margin-top:50px;
-        text-align:center;
         position:relative;
+        width:100%;
+}
+#head1 > img{
+    width:100%
 }
 .first-txt{
     position:absolute;
-    top:50px;
-    left:1000px;
+    top:30px;
+    left:650px;
 }
 .second-txt{
     position: absolute;
-    top:90px;
-    left:1000px;
+    top:70px;
+    left:800px;
     text-decoration: underline;
     color:#00819D;
+    cursor:pointer;
 }
 .third-txt{
     position: absolute;
-    top:90px;
-    right: 450px;
+    top:70px;
+    right: 400px;
     text-decoration: underline;
     color:#00819D;
+    cursor:pointer;
 }
 .mySlides {
     display: none
@@ -95,12 +103,13 @@ input[type="text"],select,textarea{
     color:grey;
     font-size:20px;
 }
-img {
+my slides >img {
     vertical-align: middle;
+    width:100%;
 }
 .slideshow-container {
         padding-top:70px;
-         max-width: 1600px;
+         max-width: 100%;
          position: relative;
          margin: auto;
       }
@@ -190,10 +199,13 @@ img {
         position:relative;
         font-family: "Brandon Text",Arial,sans-serif;
 }
+#head2 > img{
+    width:100%;
+}
 .text{
     position:absolute;
-    top:110px;
-    left:530px;
+    top:70px;
+    left:250px;
     color:white;
 }
 #email{
